@@ -1,0 +1,51 @@
+/*	FONTS
+------------------------*/
+
+
+/*	TYPOGRAPHY
+–––––––––––––––––––––––––––*/
+
+html, body{
+  margin: 0px;
+  padding: 0px;
+}
+
+.list-inline{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.list-inline li{
+    @include dis(middle);
+}
+
+a{
+  color: inherit;
+}
+
+img{
+  max-width: 100%;
+  width: 100%;
+  border: none;
+}
+
+.container{
+  margin: 0px auto;
+  width: 960px;
+}
+
+.fleft{
+  float: left;
+}
+.fright{
+  float: right;
+}
+
+.clear-fix, .clearfix{
+  clear: both;
+}
+
+
+
+/* ------ Normalize ----- */

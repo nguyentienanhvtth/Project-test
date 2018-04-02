@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/*	FONTS
+------------------------*/
+/*	TYPOGRAPHY
+–––––––––––––––––––––––––––*/
+html, body {
+  margin: 0px;
+  padding: 0px; }
+
+.list-inline {
+  margin: 0px;
+  padding: 0px;
+  list-style: none; }
+
+.list-inline li {
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  vertical-align: middle; }
+
+a {
+  color: inherit; }
+
+img {
+  max-width: 100%;
+  width: 100%;
+  border: none; }
+
+.container {
+  margin: 0px auto;
+  width: 960px; }
+
+.fleft {
+  float: left; }
+
+.fright {
+  float: right; }
+
+.clear-fix, .clearfix {
+  clear: both; }
+
+/* ------ Normalize ----- */
+#two {
+  font-family: 'Roboto'; }
+  #two .container {
+    width: 1214px;
+    margin: 0 auto;
+    max-width: 1214px; }
+    #two .container .gach {
+      width: 25px;
+      margin-left: 5px; }
+    #two .container .top {
+      height: 310px; }
+      #two .container .top .left {
+        width: 50%; }
+        #two .container .top .left h1 {
+          font-weight: 300;
+          font-size: 53pt;
+          margin: 0;
+          margin-top: 18%;
+          text-transform: uppercase; }
+        #two .container .top .left .gach {
+          border-top: 2px solid black; }
+      #two .container .top .right {
+        width: 50%;
+        margin-top: 11%; }
+        #two .container .top .right .content {
+          vertical-align: middle; }
+          #two .container .top .right .content p {
+            font-size: 18px;
+            margin: 0;
+            line-height: 20px;
+            color: #888888; }
+  #two .two__content {
+    background: #28282e;
+    color: white; }
+    #two .two__content .container {
+      padding-top: 242px;
+      padding-bottom: 205px; }
+      #two .two__content .container .content .left {
+        width: 50%; }
+        #two .two__content .container .content .left h1.tittle {
+          font-size: 53pt;
+          font-weight: 300;
+          margin: 0; }
+        #two .two__content .container .content .left .gach {
+          border-top: 2px solid white; }
+        #two .two__content .container .content .left .left__content {
+          margin-top: 70px; }
+        #two .two__content .container .content .left .left__press {
+          margin-top: 70px; }
+          #two .two__content .container .content .left .left__press button {
+            padding: 25px;
+            background: transparent;
+            border: 1px solid white;
+            text-transform: uppercase;
+            color: white; }
+      #two .two__content .container .content .right {
+        width: 50%; }
