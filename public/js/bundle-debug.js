@@ -1,5 +1,27 @@
 jQuery(document).ready(function(){
-  $('body').click(function(){
-
+  var owl = $('.slider__auto .owl-carousel');
+  owl.owlCarousel({
+      items:5,
+      loop:true,
+      margin:10,
+      autoplay:true,
+      autoplayTimeout:3000,
+      autoplayHoverPause:true
   });
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
 });

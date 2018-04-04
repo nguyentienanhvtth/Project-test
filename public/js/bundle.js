@@ -1,1 +1,1 @@
-jQuery(document).ready(function(){$("body").click(function(){})});
+jQuery(document).ready(function(){$(".slider__auto .owl-carousel").owlCarousel({items:5,loop:!0,margin:10,autoplay:!0,autoplayTimeout:3e3,autoplayHoverPause:!0}),$(".owl-carousel").owlCarousel({loop:!0,margin:10,nav:!0,responsive:{0:{items:1},600:{items:3},1e3:{items:5}}})});
