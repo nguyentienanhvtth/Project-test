@@ -434,21 +434,21 @@ section.phukien {
     .watch .container .slider__auto .owl-nav, .watch .container .slider .owl-nav {
       display: none; }
   section.thuonghieu .container,
-  section.donghochid .container,
+  section.donghochild .container,
   section.donghodoi .container,
   section.donghonam .container,
   section.donghonu .container,
   section.phukien .container {
     padding: 10px !important; }
     section.thuonghieu .container .content .col-left,
-    section.donghochid .container .content .col-left,
+    section.donghochild .container .content .col-left,
     section.donghodoi .container .content .col-left,
     section.donghonam .container .content .col-left,
     section.donghonu .container .content .col-left,
     section.phukien .container .content .col-left {
       display: none; }
     section.thuonghieu .container .content .col-right,
-    section.donghochid .container .content .col-right,
+    section.donghochild .container .content .col-right,
     section.donghodoi .container .content .col-right,
     section.donghonam .container .content .col-right,
     section.donghonu .container .content .col-right,
@@ -456,7 +456,7 @@ section.phukien {
       width: 100%;
       padding-left: 0; }
       section.thuonghieu .container .content .col-right .right_row .item .item_item,
-      section.donghochid .container .content .col-right .right_row .item .item_item,
+      section.donghochild .container .content .col-right .right_row .item .item_item,
       section.donghodoi .container .content .col-right .right_row .item .item_item,
       section.donghonam .container .content .col-right .right_row .item .item_item,
       section.donghonu .container .content .col-right .right_row .item .item_item,
@@ -465,21 +465,21 @@ section.phukien {
         width: -moz-calc((100% - 15px)/2);
         width: calc((100% - 15px)/2); }
       section.thuonghieu .container .content .col-right .right_row .item .item_item:nth-child(2),
-      section.donghochid .container .content .col-right .right_row .item .item_item:nth-child(2),
+      section.donghochild .container .content .col-right .right_row .item .item_item:nth-child(2),
       section.donghodoi .container .content .col-right .right_row .item .item_item:nth-child(2),
       section.donghonam .container .content .col-right .right_row .item .item_item:nth-child(2),
       section.donghonu .container .content .col-right .right_row .item .item_item:nth-child(2),
       section.phukien .container .content .col-right .right_row .item .item_item:nth-child(2) {
         padding-right: 0; }
       section.thuonghieu .container .content .col-right .right_row .item .item_item:nth-child(3),
-      section.donghochid .container .content .col-right .right_row .item .item_item:nth-child(3),
+      section.donghochild .container .content .col-right .right_row .item .item_item:nth-child(3),
       section.donghodoi .container .content .col-right .right_row .item .item_item:nth-child(3),
       section.donghonam .container .content .col-right .right_row .item .item_item:nth-child(3),
       section.donghonu .container .content .col-right .right_row .item .item_item:nth-child(3),
       section.phukien .container .content .col-right .right_row .item .item_item:nth-child(3) {
         padding-top: 20px; }
       section.thuonghieu .container .content .col-right .right_row .item .item_item:nth-child(4),
-      section.donghochid .container .content .col-right .right_row .item .item_item:nth-child(4),
+      section.donghochild .container .content .col-right .right_row .item .item_item:nth-child(4),
       section.donghodoi .container .content .col-right .right_row .item .item_item:nth-child(4),
       section.donghonam .container .content .col-right .right_row .item .item_item:nth-child(4),
       section.donghonu .container .content .col-right .right_row .item .item_item:nth-child(4),
@@ -490,21 +490,21 @@ section.phukien {
   section.home .banner {
     height: 204px; }
   section.thuonghieu .container,
-  section.donghochid .container,
+  section.donghochild .container,
   section.donghodoi .container,
   section.donghonam .container,
   section.donghonu .container,
   section.phukien .container {
     padding: 40px; }
     section.thuonghieu .container .content .col-left,
-    section.donghochid .container .content .col-left,
+    section.donghochild .container .content .col-left,
     section.donghodoi .container .content .col-left,
     section.donghonam .container .content .col-left,
     section.donghonu .container .content .col-left,
     section.phukien .container .content .col-left {
       display: none; }
     section.thuonghieu .container .content .col-right,
-    section.donghochid .container .content .col-right,
+    section.donghochild .container .content .col-right,
     section.donghodoi .container .content .col-right,
     section.donghonam .container .content .col-right,
     section.donghonu .container .content .col-right,
