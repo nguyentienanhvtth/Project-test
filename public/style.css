@@ -42,6 +42,276 @@ img {
   clear: both; }
 
 /* ------ Normalize ----- */
+section.thuonghieu,
+section.donghochild,
+section.donghodoi,
+section.donghonam,
+section.donghonu,
+section.phukien {
+  font-family: 'Roboto', sans-serif; }
+  section.thuonghieu .container .wrp,
+  section.donghochild .container .wrp,
+  section.donghodoi .container .wrp,
+  section.donghonam .container .wrp,
+  section.donghonu .container .wrp,
+  section.phukien .container .wrp {
+    border-bottom: 1px solid #ddd; }
+    section.thuonghieu .container .wrp ul,
+    section.donghochild .container .wrp ul,
+    section.donghodoi .container .wrp ul,
+    section.donghonam .container .wrp ul,
+    section.donghonu .container .wrp ul,
+    section.phukien .container .wrp ul {
+      margin: 0;
+      padding: 0; }
+      section.thuonghieu .container .wrp ul li,
+      section.donghochild .container .wrp ul li,
+      section.donghodoi .container .wrp ul li,
+      section.donghonam .container .wrp ul li,
+      section.donghonu .container .wrp ul li,
+      section.phukien .container .wrp ul li {
+        display: inline-block;
+        margin-right: 7px;
+        color: #2d2d2d;
+        font-size: 13px; }
+        section.thuonghieu .container .wrp ul li p i.fa.fa-angle-double-right,
+        section.donghochild .container .wrp ul li p i.fa.fa-angle-double-right,
+        section.donghodoi .container .wrp ul li p i.fa.fa-angle-double-right,
+        section.donghonam .container .wrp ul li p i.fa.fa-angle-double-right,
+        section.donghonu .container .wrp ul li p i.fa.fa-angle-double-right,
+        section.phukien .container .wrp ul li p i.fa.fa-angle-double-right {
+          color: #2d2d2d; }
+  section.thuonghieu .container .content,
+  section.donghochild .container .content,
+  section.donghodoi .container .content,
+  section.donghonam .container .content,
+  section.donghonu .container .content,
+  section.phukien .container .content {
+    margin-top: 15px; }
+    section.thuonghieu .container .content .col-left,
+    section.donghochild .container .content .col-left,
+    section.donghodoi .container .content .col-left,
+    section.donghonam .container .content .col-left,
+    section.donghonu .container .content .col-left,
+    section.phukien .container .content .col-left {
+      width: 19%;
+      float: left; }
+      section.thuonghieu .container .content .col-left .filter .filter__left,
+      section.donghochild .container .content .col-left .filter .filter__left,
+      section.donghodoi .container .content .col-left .filter .filter__left,
+      section.donghonam .container .content .col-left .filter .filter__left,
+      section.donghonu .container .content .col-left .filter .filter__left,
+      section.phukien .container .content .col-left .filter .filter__left {
+        margin-top: 20px;
+        border: 1px solid #eee; }
+        section.thuonghieu .container .content .col-left .filter .filter__left .tittle,
+        section.donghochild .container .content .col-left .filter .filter__left .tittle,
+        section.donghodoi .container .content .col-left .filter .filter__left .tittle,
+        section.donghonam .container .content .col-left .filter .filter__left .tittle,
+        section.donghonu .container .content .col-left .filter .filter__left .tittle,
+        section.phukien .container .content .col-left .filter .filter__left .tittle {
+          padding: 12px 7px;
+          text-transform: uppercase;
+          font-size: 13px;
+          background: #eee;
+          font-weight: 700; }
+        section.thuonghieu .container .content .col-left .filter .filter__left .tittle:before,
+        section.donghochild .container .content .col-left .filter .filter__left .tittle:before,
+        section.donghodoi .container .content .col-left .filter .filter__left .tittle:before,
+        section.donghonam .container .content .col-left .filter .filter__left .tittle:before,
+        section.donghonu .container .content .col-left .filter .filter__left .tittle:before,
+        section.phukien .container .content .col-left .filter .filter__left .tittle:before {
+          content: "";
+          width: 16px;
+          position: relative;
+          height: 16px;
+          top: 3px;
+          margin-right: 5px;
+          display: inline-block;
+          background: #be5b0b; }
+        section.thuonghieu .container .content .col-left .filter .filter__left .filter__list ul,
+        section.donghochild .container .content .col-left .filter .filter__left .filter__list ul,
+        section.donghodoi .container .content .col-left .filter .filter__left .filter__list ul,
+        section.donghonam .container .content .col-left .filter .filter__left .filter__list ul,
+        section.donghonu .container .content .col-left .filter .filter__left .filter__list ul,
+        section.phukien .container .content .col-left .filter .filter__left .filter__list ul {
+          padding: 10px 8px 0px 8px; }
+          section.thuonghieu .container .content .col-left .filter .filter__left .filter__list ul li,
+          section.donghochild .container .content .col-left .filter .filter__left .filter__list ul li,
+          section.donghodoi .container .content .col-left .filter .filter__left .filter__list ul li,
+          section.donghonam .container .content .col-left .filter .filter__left .filter__list ul li,
+          section.donghonu .container .content .col-left .filter .filter__left .filter__list ul li,
+          section.phukien .container .content .col-left .filter .filter__left .filter__list ul li {
+            list-style: none;
+            color: #2d2d2d; }
+            section.thuonghieu .container .content .col-left .filter .filter__left .filter__list ul li a,
+            section.donghochild .container .content .col-left .filter .filter__left .filter__list ul li a,
+            section.donghodoi .container .content .col-left .filter .filter__left .filter__list ul li a,
+            section.donghonam .container .content .col-left .filter .filter__left .filter__list ul li a,
+            section.donghonu .container .content .col-left .filter .filter__left .filter__list ul li a,
+            section.phukien .container .content .col-left .filter .filter__left .filter__list ul li a {
+              font-size: 13px;
+              -webkit-transition: 0.3s;
+              -o-transition: 0.3s;
+              -moz-transition: 0.3s;
+              transition: 0.3s; }
+              section.thuonghieu .container .content .col-left .filter .filter__left .filter__list ul li a .fa-square,
+              section.donghochild .container .content .col-left .filter .filter__left .filter__list ul li a .fa-square,
+              section.donghodoi .container .content .col-left .filter .filter__left .filter__list ul li a .fa-square,
+              section.donghonam .container .content .col-left .filter .filter__left .filter__list ul li a .fa-square,
+              section.donghonu .container .content .col-left .filter .filter__left .filter__list ul li a .fa-square,
+              section.phukien .container .content .col-left .filter .filter__left .filter__list ul li a .fa-square {
+                color: #e2e2e2;
+                margin-right: 8px;
+                -webkit-transition: 0.3s;
+                -o-transition: 0.3s;
+                -moz-transition: 0.3s;
+                transition: 0.3s; }
+          section.thuonghieu .container .content .col-left .filter .filter__left .filter__list ul li:hover a, section.thuonghieu .container .content .col-left .filter .filter__left .filter__list ul li:hover a .fa-square,
+          section.donghochild .container .content .col-left .filter .filter__left .filter__list ul li:hover a,
+          section.donghochild .container .content .col-left .filter .filter__left .filter__list ul li:hover a .fa-square,
+          section.donghodoi .container .content .col-left .filter .filter__left .filter__list ul li:hover a,
+          section.donghodoi .container .content .col-left .filter .filter__left .filter__list ul li:hover a .fa-square,
+          section.donghonam .container .content .col-left .filter .filter__left .filter__list ul li:hover a,
+          section.donghonam .container .content .col-left .filter .filter__left .filter__list ul li:hover a .fa-square,
+          section.donghonu .container .content .col-left .filter .filter__left .filter__list ul li:hover a,
+          section.donghonu .container .content .col-left .filter .filter__left .filter__list ul li:hover a .fa-square,
+          section.phukien .container .content .col-left .filter .filter__left .filter__list ul li:hover a,
+          section.phukien .container .content .col-left .filter .filter__left .filter__list ul li:hover a .fa-square {
+            color: #be5b0b; }
+    section.thuonghieu .container .content .col-right,
+    section.donghochild .container .content .col-right,
+    section.donghodoi .container .content .col-right,
+    section.donghonam .container .content .col-right,
+    section.donghonu .container .content .col-right,
+    section.phukien .container .content .col-right {
+      padding-left: 2%;
+      width: 79%;
+      float: left; }
+      section.thuonghieu .container .content .col-right .right__title,
+      section.donghochild .container .content .col-right .right__title,
+      section.donghodoi .container .content .col-right .right__title,
+      section.donghonam .container .content .col-right .right__title,
+      section.donghonu .container .content .col-right .right__title,
+      section.phukien .container .content .col-right .right__title {
+        margin-bottom: 15px; }
+        section.thuonghieu .container .content .col-right .right__title h4.tittle,
+        section.donghochild .container .content .col-right .right__title h4.tittle,
+        section.donghodoi .container .content .col-right .right__title h4.tittle,
+        section.donghonam .container .content .col-right .right__title h4.tittle,
+        section.donghonu .container .content .col-right .right__title h4.tittle,
+        section.phukien .container .content .col-right .right__title h4.tittle {
+          margin: 0;
+          font-size: 25px;
+          font-weight: 400;
+          text-transform: uppercase; }
+        section.thuonghieu .container .content .col-right .right__title h4.tittle,
+        section.donghochild .container .content .col-right .right__title h4.tittle,
+        section.donghodoi .container .content .col-right .right__title h4.tittle,
+        section.donghonam .container .content .col-right .right__title h4.tittle,
+        section.donghonu .container .content .col-right .right__title h4.tittle,
+        section.phukien .container .content .col-right .right__title h4.tittle {
+          position: relative;
+          padding-left: 15px; }
+          section.thuonghieu .container .content .col-right .right__title h4.tittle a:before,
+          section.donghochild .container .content .col-right .right__title h4.tittle a:before,
+          section.donghodoi .container .content .col-right .right__title h4.tittle a:before,
+          section.donghonam .container .content .col-right .right__title h4.tittle a:before,
+          section.donghonu .container .content .col-right .right__title h4.tittle a:before,
+          section.phukien .container .content .col-right .right__title h4.tittle a:before {
+            content: "";
+            height: -webkit-calc(100% - 10px);
+            height: -moz-calc(100% - 10px);
+            height: calc(100% - 10px);
+            bottom: 6px;
+            width: 6px;
+            left: 0;
+            background: #f24e53;
+            position: absolute; }
+        section.thuonghieu .container .content .col-right .right__title select.fiter,
+        section.donghochild .container .content .col-right .right__title select.fiter,
+        section.donghodoi .container .content .col-right .right__title select.fiter,
+        section.donghonam .container .content .col-right .right__title select.fiter,
+        section.donghonu .container .content .col-right .right__title select.fiter,
+        section.phukien .container .content .col-right .right__title select.fiter {
+          padding: 5px 10px; }
+      section.thuonghieu .container .content .col-right .right_row .item,
+      section.donghochild .container .content .col-right .right_row .item,
+      section.donghodoi .container .content .col-right .right_row .item,
+      section.donghonam .container .content .col-right .right_row .item,
+      section.donghonu .container .content .col-right .right_row .item,
+      section.phukien .container .content .col-right .right_row .item {
+        margin-top: 20px; }
+        section.thuonghieu .container .content .col-right .right_row .item .item_item,
+        section.donghochild .container .content .col-right .right_row .item .item_item,
+        section.donghodoi .container .content .col-right .right_row .item .item_item,
+        section.donghonam .container .content .col-right .right_row .item .item_item,
+        section.donghonu .container .content .col-right .right_row .item .item_item,
+        section.phukien .container .content .col-right .right_row .item .item_item {
+          width: -webkit-calc((100% - 45px)/4);
+          width: -moz-calc((100% - 45px)/4);
+          width: calc((100% - 45px)/4);
+          float: left;
+          padding-right: 15px; }
+        section.thuonghieu .container .content .col-right .right_row .item .item_item:nth-child(4),
+        section.donghochild .container .content .col-right .right_row .item .item_item:nth-child(4),
+        section.donghodoi .container .content .col-right .right_row .item .item_item:nth-child(4),
+        section.donghonam .container .content .col-right .right_row .item .item_item:nth-child(4),
+        section.donghonu .container .content .col-right .right_row .item .item_item:nth-child(4),
+        section.phukien .container .content .col-right .right_row .item .item_item:nth-child(4) {
+          padding-right: 0; }
+      section.thuonghieu .container .content .col-right .right__list,
+      section.donghochild .container .content .col-right .right__list,
+      section.donghodoi .container .content .col-right .right__list,
+      section.donghonam .container .content .col-right .right__list,
+      section.donghonu .container .content .col-right .right__list,
+      section.phukien .container .content .col-right .right__list {
+        margin-top: 15px;
+        text-align: center; }
+        section.thuonghieu .container .content .col-right .right__list p,
+        section.donghochild .container .content .col-right .right__list p,
+        section.donghodoi .container .content .col-right .right__list p,
+        section.donghonam .container .content .col-right .right__list p,
+        section.donghonu .container .content .col-right .right__list p,
+        section.phukien .container .content .col-right .right__list p {
+          display: inline-block;
+          margin: 5px; }
+          section.thuonghieu .container .content .col-right .right__list p a,
+          section.donghochild .container .content .col-right .right__list p a,
+          section.donghodoi .container .content .col-right .right__list p a,
+          section.donghonam .container .content .col-right .right__list p a,
+          section.donghonu .container .content .col-right .right__list p a,
+          section.phukien .container .content .col-right .right__list p a {
+            padding: 10px 15px;
+            background: black;
+            color: white;
+            -webkit-transition: 0.3s;
+            -o-transition: 0.3s;
+            -moz-transition: 0.3s;
+            transition: 0.3s; }
+            section.thuonghieu .container .content .col-right .right__list p a img,
+            section.donghochild .container .content .col-right .right__list p a img,
+            section.donghodoi .container .content .col-right .right__list p a img,
+            section.donghonam .container .content .col-right .right__list p a img,
+            section.donghonu .container .content .col-right .right__list p a img,
+            section.phukien .container .content .col-right .right__list p a img {
+              width: 25%; }
+        section.thuonghieu .container .content .col-right .right__list p:nth-child(1) a,
+        section.donghochild .container .content .col-right .right__list p:nth-child(1) a,
+        section.donghodoi .container .content .col-right .right__list p:nth-child(1) a,
+        section.donghonam .container .content .col-right .right__list p:nth-child(1) a,
+        section.donghonu .container .content .col-right .right__list p:nth-child(1) a,
+        section.phukien .container .content .col-right .right__list p:nth-child(1) a {
+          background: #ff3000; }
+        section.thuonghieu .container .content .col-right .right__list p:hover a,
+        section.donghochild .container .content .col-right .right__list p:hover a,
+        section.donghodoi .container .content .col-right .right__list p:hover a,
+        section.donghonam .container .content .col-right .right__list p:hover a,
+        section.donghonu .container .content .col-right .right__list p:hover a,
+        section.phukien .container .content .col-right .right__list p:hover a {
+          color: #ffcc00;
+          text-decoration: underline; }
+
 .home {
   font-family: 'Roboto', sans-serif; }
   .home .banner {
@@ -56,49 +326,50 @@ img {
         margin-right: 8px; }
       .home .slideafterBanner .banner__img:last-child .banner__img__img {
         margin-right: 0; }
-
-section.watch {
-  font-family: 'Roboto', sans-serif; }
-  section.watch .container .slider__auto, section.watch .container .slider {
-    margin-bottom: 30px; }
-    section.watch .container .slider__auto h4.tittle, section.watch .container .slider h4.tittle {
-      text-transform: uppercase;
-      font-weight: 400;
-      font-size: 25px;
-      position: relative;
-      margin-top: 0;
-      margin-bottom: 15px; }
-      section.watch .container .slider__auto h4.tittle a, section.watch .container .slider h4.tittle a {
-        padding-left: 17px; }
-    section.watch .container .slider__auto h4.tittle:before, section.watch .container .slider h4.tittle:before {
-      content: "";
-      height: 70%;
-      top: 15%;
-      width: 6px;
-      background: #f24e53;
-      position: absolute; }
-    section.watch .container .slider__auto .owl-carousel .owl-dots, section.watch .container .slider .owl-carousel .owl-dots {
-      display: none; }
-    section.watch .container .slider__auto .owl-stage, section.watch .container .slider .owl-stage {
-      -webkit-transition: 1s !important;
-      -o-transition: 1s !important;
-      -moz-transition: 1s !important;
-      transition: 1s !important; }
-    section.watch .container .slider__auto .owl-nav, section.watch .container .slider .owl-nav {
-      display: block;
-      position: absolute;
-      top: -19%;
-      right: 1%; }
-      section.watch .container .slider__auto .owl-nav .owl-prev, section.watch .container .slider__auto .owl-nav .owl-next, section.watch .container .slider .owl-nav .owl-prev, section.watch .container .slider .owl-nav .owl-next {
-        font-size: 0;
-        background: white;
-        color: black; }
-      section.watch .container .slider__auto .owl-nav .owl-prev:before, section.watch .container .slider .owl-nav .owl-prev:before {
-        content: '<';
-        font-size: 30px; }
-      section.watch .container .slider__auto .owl-nav .owl-next:before, section.watch .container .slider .owl-nav .owl-next:before {
-        content: '>';
-        font-size: 30px; }
+  .home .watch {
+    font-family: 'Roboto', sans-serif; }
+    .home .watch .container .slider__auto, .home .watch .container .slider {
+      margin-bottom: 30px; }
+      .home .watch .container .slider__auto h4.tittle, .home .watch .container .slider h4.tittle {
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 25px;
+        padding-left: 17px;
+        position: relative;
+        margin-top: 0;
+        margin-bottom: 15px; }
+      .home .watch .container .slider__auto h4.tittle:before, .home .watch .container .slider h4.tittle:before {
+        content: "";
+        height: -webkit-calc(100% - 15px);
+        height: -moz-calc(100% - 15px);
+        height: calc(100% - 15px);
+        bottom: 6px;
+        width: 6px;
+        left: 0;
+        background: #f24e53;
+        position: absolute; }
+      .home .watch .container .slider__auto .owl-carousel .owl-dots, .home .watch .container .slider .owl-carousel .owl-dots {
+        display: none; }
+      .home .watch .container .slider__auto .owl-stage, .home .watch .container .slider .owl-stage {
+        -webkit-transition: 1s !important;
+        -o-transition: 1s !important;
+        -moz-transition: 1s !important;
+        transition: 1s !important; }
+      .home .watch .container .slider__auto .owl-nav, .home .watch .container .slider .owl-nav {
+        display: block;
+        position: absolute;
+        top: -75px;
+        right: 1%; }
+        .home .watch .container .slider__auto .owl-nav .owl-prev, .home .watch .container .slider__auto .owl-nav .owl-next, .home .watch .container .slider .owl-nav .owl-prev, .home .watch .container .slider .owl-nav .owl-next {
+          font-size: 0;
+          background: white;
+          color: black; }
+        .home .watch .container .slider__auto .owl-nav .owl-prev:before, .home .watch .container .slider .owl-nav .owl-prev:before {
+          content: '<';
+          font-size: 30px; }
+        .home .watch .container .slider__auto .owl-nav .owl-next:before, .home .watch .container .slider .owl-nav .owl-next:before {
+          content: '>';
+          font-size: 30px; }
 
 .product__item {
   border: 1px solid #e2e2e2;
@@ -116,17 +387,20 @@ section.watch {
     bottom: 0;
     padding: 10px 7px; }
     .product__item .product_info .product__tittle {
+      overflow: hidden;
       height: 44px; }
-      .product__item .product_info .product__tittle a {
-        line-height: 22px;
-        height: 44px;
-        margin-bottom: 7px;
-        font-size: 15px;
-        font-weight: 700;
-        -webkit-transition: 0.5s;
-        -o-transition: 0.5s;
-        -moz-transition: 0.5s;
-        transition: 0.5s; }
+      .product__item .product_info .product__tittle p {
+        margin: 0; }
+        .product__item .product_info .product__tittle p a {
+          line-height: 22px;
+          height: 44px;
+          margin-bottom: 7px;
+          font-size: 15px;
+          font-weight: 700;
+          -webkit-transition: 0.5s;
+          -o-transition: 0.5s;
+          -moz-transition: 0.5s;
+          transition: 0.5s; }
     .product__item .product_info .product__price {
       color: #be5b0b;
       font-size: 16px;
@@ -136,8 +410,104 @@ section.watch {
       color: #be5b0b; }
 
 .product__item:hover .product__img img {
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  transform: scale(1.2); }
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1); }
+
+@media screen and (max-width: 320px) {
+  section.home .banner {
+    display: none; }
+  section.home .container .slideafterBanner {
+    margin: 15px 0px; }
+    section.home .container .slideafterBanner .banner__img {
+      width: 50%;
+      float: left; }
+      section.home .container .slideafterBanner .banner__img .banner__img__img {
+        margin: 4px 5px; }
+  .watch .container {
+    margin: 0 10px; }
+    .watch .container .slider__auto h4.tittle, .watch .container .slider h4.tittle {
+      width: 85%;
+      letter-spacing: -2px; }
+    .watch .container .slider__auto .owl-nav, .watch .container .slider .owl-nav {
+      display: none; }
+  section.thuonghieu .container,
+  section.donghochid .container,
+  section.donghodoi .container,
+  section.donghonam .container,
+  section.donghonu .container,
+  section.phukien .container {
+    padding: 10px !important; }
+    section.thuonghieu .container .content .col-left,
+    section.donghochid .container .content .col-left,
+    section.donghodoi .container .content .col-left,
+    section.donghonam .container .content .col-left,
+    section.donghonu .container .content .col-left,
+    section.phukien .container .content .col-left {
+      display: none; }
+    section.thuonghieu .container .content .col-right,
+    section.donghochid .container .content .col-right,
+    section.donghodoi .container .content .col-right,
+    section.donghonam .container .content .col-right,
+    section.donghonu .container .content .col-right,
+    section.phukien .container .content .col-right {
+      width: 100%;
+      padding-left: 0; }
+      section.thuonghieu .container .content .col-right .right_row .item .item_item,
+      section.donghochid .container .content .col-right .right_row .item .item_item,
+      section.donghodoi .container .content .col-right .right_row .item .item_item,
+      section.donghonam .container .content .col-right .right_row .item .item_item,
+      section.donghonu .container .content .col-right .right_row .item .item_item,
+      section.phukien .container .content .col-right .right_row .item .item_item {
+        width: -webkit-calc((100% - 15px)/2);
+        width: -moz-calc((100% - 15px)/2);
+        width: calc((100% - 15px)/2); }
+      section.thuonghieu .container .content .col-right .right_row .item .item_item:nth-child(2),
+      section.donghochid .container .content .col-right .right_row .item .item_item:nth-child(2),
+      section.donghodoi .container .content .col-right .right_row .item .item_item:nth-child(2),
+      section.donghonam .container .content .col-right .right_row .item .item_item:nth-child(2),
+      section.donghonu .container .content .col-right .right_row .item .item_item:nth-child(2),
+      section.phukien .container .content .col-right .right_row .item .item_item:nth-child(2) {
+        padding-right: 0; }
+      section.thuonghieu .container .content .col-right .right_row .item .item_item:nth-child(3),
+      section.donghochid .container .content .col-right .right_row .item .item_item:nth-child(3),
+      section.donghodoi .container .content .col-right .right_row .item .item_item:nth-child(3),
+      section.donghonam .container .content .col-right .right_row .item .item_item:nth-child(3),
+      section.donghonu .container .content .col-right .right_row .item .item_item:nth-child(3),
+      section.phukien .container .content .col-right .right_row .item .item_item:nth-child(3) {
+        padding-top: 20px; }
+      section.thuonghieu .container .content .col-right .right_row .item .item_item:nth-child(4),
+      section.donghochid .container .content .col-right .right_row .item .item_item:nth-child(4),
+      section.donghodoi .container .content .col-right .right_row .item .item_item:nth-child(4),
+      section.donghonam .container .content .col-right .right_row .item .item_item:nth-child(4),
+      section.donghonu .container .content .col-right .right_row .item .item_item:nth-child(4),
+      section.phukien .container .content .col-right .right_row .item .item_item:nth-child(4) {
+        padding-top: 20px; } }
+
+@media screen and (max-width: 768px) {
+  section.home .banner {
+    height: 204px; }
+  section.thuonghieu .container,
+  section.donghochid .container,
+  section.donghodoi .container,
+  section.donghonam .container,
+  section.donghonu .container,
+  section.phukien .container {
+    padding: 40px; }
+    section.thuonghieu .container .content .col-left,
+    section.donghochid .container .content .col-left,
+    section.donghodoi .container .content .col-left,
+    section.donghonam .container .content .col-left,
+    section.donghonu .container .content .col-left,
+    section.phukien .container .content .col-left {
+      display: none; }
+    section.thuonghieu .container .content .col-right,
+    section.donghochid .container .content .col-right,
+    section.donghodoi .container .content .col-right,
+    section.donghonam .container .content .col-right,
+    section.donghonu .container .content .col-right,
+    section.phukien .container .content .col-right {
+      width: 100%;
+      padding-left: 0; } }

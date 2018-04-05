@@ -6,7 +6,23 @@ jQuery(document).ready(function(){
       margin:10,
       autoplay:true,
       autoplayTimeout:3000,
-      autoplayHoverPause:true
+      autoplayHoverPause:true,
+      responsiveClass:true,
+      responsive:{
+          0:{
+              items:2,
+              nav:true
+          },
+          600:{
+              items:3,
+              nav:false
+          },
+          1000:{
+              items:5,
+              nav:true,
+              loop:false
+          }
+      }
   });
   $('.owl-carousel').owlCarousel({
     loop:true,
@@ -14,7 +30,7 @@ jQuery(document).ready(function(){
     nav:true,
     responsive:{
         0:{
-            items:1
+            items:2
         },
         600:{
             items:3

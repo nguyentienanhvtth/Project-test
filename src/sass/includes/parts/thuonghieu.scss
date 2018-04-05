@@ -1,0 +1,152 @@
+section.thuonghieu,
+section.donghochild,
+section.donghodoi,
+section.donghonam,
+section.donghonu,
+section.phukien{
+    font-family:  'Roboto', sans-serif;
+    .container{
+        .wrp{
+            border-bottom: 1px solid #ddd;
+            ul{
+                margin: 0;
+                padding: 0;
+                li{
+                    display: inline-block;
+                    margin-right: 7px;
+                    color: #2d2d2d;
+                    font-size: 13px;
+                    p{
+                        i.fa.fa-angle-double-right{
+                            color:  #2d2d2d;
+                        }
+                    }
+                }
+            }
+        }
+        .content{
+            margin-top: 15px;
+            .col-left{
+                width: 19%;
+                float: left;
+                .filter{
+                    .filter__left {
+                        margin-top: 20px;
+                        border: 1px solid #eee;
+                        .tittle{
+                            padding: 12px 7px;
+                            text-transform:uppercase;
+                            font-size: 13px;
+                            background: #eee;
+                            font-weight: 700;
+                        }
+                        .tittle:before{
+                            content: "";
+                            width: 16px;
+                            position: relative;
+                            height: 16px;
+                            top: 3px;
+                            margin-right: 5px;
+                            display: inline-block;
+                            background: #be5b0b;
+                        }
+                        .filter__list{
+                            ul{
+                                padding: 10px 8px 0px 8px;
+                                li{
+                                    list-style:none;
+                                    color:#2d2d2d;
+                                    a{
+                                        font-size: 13px;
+                                        transition:0.3s;
+                                        .fa-square{
+                                            color: #e2e2e2;
+                                            margin-right: 8px;
+                                            transition:0.3s;
+
+                                        }
+                                    }
+                                }
+                                li:hover a, li:hover a .fa-square{
+                                    color: #be5b0b;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .col-right{
+                padding-left: 2%;
+                width: 79%;
+                float: left;
+                .right__title{
+                    margin-bottom: 15px;
+                    h4.tittle{
+                        margin:0;
+                        font-size: 25px;
+                        font-weight: 400;
+                        text-transform: uppercase;
+                    }
+                    h4.tittle{
+                        position: relative;
+                        padding-left: 15px;
+                        a:before{
+                            content: "";
+                            height: calc(100% - 10px);
+                            bottom: 6px;
+                            width: 6px;
+                            left: 0;
+                            background: #f24e53;
+                            position: absolute;
+                        }
+                    }
+                    select.fiter{
+                        padding:5px 10px;
+                    }
+                }
+                .right__banner{
+
+                }
+                .right_row{
+                    .item{
+                        margin-top: 20px;
+                        .item_item{
+                            width: calc((100% - 45px)/4);
+                            float: left;
+                            padding-right: 15px;
+                        }
+                        .item_item:nth-child(4){
+                            padding-right: 0;
+                        }
+                    }
+                }
+                .right__list{
+                    margin-top: 15px;
+                    text-align: center;
+                    p{
+                        display: inline-block;
+                        margin: 5px;
+                        a{
+                            padding: 10px 15px;
+                            background: black;
+                            color: white;
+                            transition:0.3s;
+                            img{
+                                width: 25%;
+                            }
+                        }
+                    }
+                    p:nth-child(1){
+                        a{
+                            background: #ff3000;
+                        }
+                    }
+                    p:hover a{
+                        color: #ffcc00;
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}

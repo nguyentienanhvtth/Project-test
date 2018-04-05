@@ -12,15 +12,20 @@
         background: #e2e2e2;
         bottom: 0;
         padding: 10px 7px;
+
         .product__tittle{
+            overflow: hidden;
             height: 44px;
-            a{
-                line-height: 22px;
-                height: 44px;
-                margin-bottom: 7px;
-                font-size: 15px;
-                font-weight: 700;
-                transition: 0.5s;
+            p{
+                margin: 0;
+                a{
+                    line-height: 22px;
+                    height: 44px;
+                    margin-bottom: 7px;
+                    font-size: 15px;
+                    font-weight: 700;
+                    transition: 0.5s;
+                }
             }
         }
         .product__price{
@@ -40,7 +45,7 @@
 .product__item:hover{
     .product__img{
         img{
-            transform: scale(1.2); 
+            transform: scale(1.1); 
         }
     }
 }

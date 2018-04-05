@@ -1,0 +1,101 @@
+@media screen and (max-width: 320px){
+    section.home{
+        .banner{
+            display: none;
+        }
+        .container{
+            .slideafterBanner{
+                margin:15px 0px;
+                .banner__img{
+                    width: 50%;
+                    float: left;
+                    .banner__img__img{
+                        margin:4px 5px;
+                    }
+                }
+            }
+        }
+    }
+    .watch{
+        .container{
+            margin: 0 10px;
+            .slider__auto,.slider{
+                h4.tittle{
+                    width: 85%;
+                    letter-spacing: -2px;
+                }
+                .owl-nav{
+                    display: none;
+                }
+            }
+
+        }
+    }
+    section.thuonghieu,
+    section.donghochid,
+    section.donghodoi,
+    section.donghonam,
+    section.donghonu,
+    section.phukien{
+        .container{
+            padding: 10px!important;
+            .content{
+                .col-left{
+                    display: none;
+                }
+                .col-right{
+                    width: 100%;
+                    padding-left: 0;
+                    .right_row{
+                        .item{
+                            .item_item{
+                                width: calc((100% - 15px)/2);
+                            }
+                            .item_item:nth-child(2){
+                                padding-right: 0;
+                            }
+                            .item_item:nth-child(3){
+                                padding-top: 20px;
+                            }
+                            .item_item:nth-child(4){
+                                padding-top: 20px;
+                            }
+                            
+
+                        }
+                }
+                }
+                
+            }
+        }
+    }
+}
+
+
+// tablet
+@media screen and (max-width: 768px){
+    section.home{
+        .banner{
+            height: 204px;
+        }
+    }
+    section.thuonghieu,
+    section.donghochid,
+    section.donghodoi,
+    section.donghonam,
+    section.donghonu,
+    section.phukien{
+        .container{
+            padding: 40px;
+            .content{
+                .col-left{
+                    display: none;
+                }
+                .col-right{
+                    width: 100%;
+                    padding-left: 0;
+                }
+            }
+        }
+    }
+}
