@@ -1,6 +1,7 @@
 jQuery(document).ready(function(){
   var owl = $('.slider__auto .owl-carousel');
-  owl.owlCarousel({
+  owl.each(function(index) {
+    $(this).owlCarousel({
       items:5,
       loop:true,
       margin:10,
@@ -24,6 +25,8 @@ jQuery(document).ready(function(){
           }
       }
   });
+  })
+  
   $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
