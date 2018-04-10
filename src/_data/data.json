@@ -10,8 +10,7 @@
         }
     },
 
-    "nav": [
-        {
+    "nav": [{
             "href": "/link1",
             "name": "Home"
         },
@@ -29,36 +28,30 @@
             "name": "hỗ trợ"
         }
     ],
-    "translations": {
-        "HELLO_WORLD": {
-            "en-CA": "Hello World",
-            "fr-CA": "Bonjour le monde"
-        }
-    },
-    "sliderdemo":[
+    "sliderdemo": [
         {
             "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, voluptas.",
-            "img" : "http://dangquangwatch.vn//upload/product_small/1961731403_dong-ho-diamond-d-DM61195.jpg",
+            "img": "http://dangquangwatch.vn//upload/product_small/1961731403_dong-ho-diamond-d-DM61195.jpg",
             "price": "4.000.000 đ"
         },
         {
             "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, voluptas.",
-            "img" : "http://dangquangwatch.vn//upload/product_small/1961731403_dong-ho-diamond-d-DM61195.jpg",
+            "img": "http://dangquangwatch.vn//upload/product_small/1961731403_dong-ho-diamond-d-DM61195.jpg",
             "price": "4.000.000 đ"
         },
         {
             "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, voluptas.",
-            "img" : "http://dangquangwatch.vn//upload/product_small/1961731403_dong-ho-diamond-d-DM61195.jpg",
+            "img": "http://dangquangwatch.vn//upload/product_small/1961731403_dong-ho-diamond-d-DM61195.jpg",
             "price": "4.000.000 đ"
         },
         {
             "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, voluptas.",
-            "img" : "http://dangquangwatch.vn//upload/product_small/1961731403_dong-ho-diamond-d-DM61195.jpg",
+            "img": "http://dangquangwatch.vn//upload/product_small/1961731403_dong-ho-diamond-d-DM61195.jpg",
             "price": "4.000.000 đ"
         },
         {
             "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, voluptas.",
-            "img" : "http://dangquangwatch.vn//upload/product_small/1961731403_dong-ho-diamond-d-DM61195.jpg",
+            "img": "http://dangquangwatch.vn//upload/product_small/1961731403_dong-ho-diamond-d-DM61195.jpg",
             "price": "4.000.000 đ"
         }
     ]
