@@ -1,7 +1,6 @@
 .home{
     font-family: 'Roboto', sans-serif;
     .banner{
-        height: 329px;
         overflow: hidden;
     }
     .slideafterBanner{
@@ -50,9 +49,6 @@
                     .owl-dots{
                         display: none;
                     }
-                }
-                .owl-stage{
-                    transition:1s!important;
                 }
                 .owl-nav{
                     display: block;

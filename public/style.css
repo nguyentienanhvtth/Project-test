@@ -315,7 +315,6 @@ section.phukien {
 .home {
   font-family: 'Roboto', sans-serif; }
   .home .banner {
-    height: 329px;
     overflow: hidden; }
   .home .slideafterBanner {
     margin: 15px 0px; }
@@ -350,11 +349,6 @@ section.phukien {
         position: absolute; }
       .home .watch .container .slider__auto .owl-carousel .owl-dots, .home .watch .container .slider .owl-carousel .owl-dots {
         display: none; }
-      .home .watch .container .slider__auto .owl-stage, .home .watch .container .slider .owl-stage {
-        -webkit-transition: 1s !important;
-        -o-transition: 1s !important;
-        -moz-transition: 1s !important;
-        transition: 1s !important; }
       .home .watch .container .slider__auto .owl-nav, .home .watch .container .slider .owl-nav {
         display: block;
         position: absolute;

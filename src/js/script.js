@@ -1,35 +1,30 @@
 jQuery(document).ready(function(){
-  var owl = $('.slider__auto .owl-carousel');
-  owl.each(function(index) {
-    $(this).owlCarousel({
-      items:5,
+    $('.slider__auto .owl-carousel').owlCarousel({
       loop:true,
       margin:10,
+      smartSpeed:1000,
       autoplay:true,
       autoplayTimeout:3000,
       autoplayHoverPause:true,
       responsiveClass:true,
+      nav:true,
       responsive:{
           0:{
-              items:2,
-              nav:true
+              items:2
           },
           600:{
-              items:3,
-              nav:false
+              items:3
           },
           1000:{
-              items:5,
-              nav:true,
-              loop:false
+              items:5
           }
       }
-  });
   })
   
   $('.owl-carousel').owlCarousel({
-    loop:true,
+    loop:false,
     margin:10,
+    smartSpeed:1000,
     nav:true,
     responsive:{
         0:{
